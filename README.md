@@ -2,6 +2,13 @@
 
 Panel web para OTEC, construido con [Vite](https://vitejs.dev/).
 
+El proyecto tiene dos partes:
+
+- **Este directorio** (`/`): frontend con Vite.
+- **`server/`**: API en Node.js + Express + Prisma, conectada a una base de
+  datos PostgreSQL. Ver [`server/README.md`](./server/README.md) para
+  instalar PostgreSQL y levantar la API.
+
 ## Requisitos
 
 - Node.js 18+
